@@ -1,10 +1,8 @@
 import React, { useReducer } from 'react';
-import { Link, withRouter } from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
 import '../../../assets/bootstrap.css';
 import './LoanRequest.scss';
 import PlusIcon from '../../../assets/images/plus.svg';
-import SuccessIcon from '../../../assets/images/Successfully.svg';
-import ErrorIcon from '../../../assets/images/Error.svg';
 import { Footer } from '../../navigation/navigation';
 
 // Redux
@@ -62,11 +60,11 @@ const LoanRequest = (props) => {
     //     }, 3000)
     // }
 
-    function closeModal() {
-        document.getElementById('message').classList.add('inactive');
-        document.getElementById('overlay').classList.add('inactive');
+    // function closeModal() {
+    //     document.getElementById('message').classList.add('inactive');
+    //     document.getElementById('overlay').classList.add('inactive');
         
-    }
+    // }
 
 
     return (
@@ -91,7 +89,7 @@ const LoanRequest = (props) => {
             
             <div className='loan-wrapper'>
                 <div>
-                <span>Dashboard ></span>
+                <span>Dashboard &gt;</span>
                 <span className="create"> Create Loan Request</span>
                 </div>
 

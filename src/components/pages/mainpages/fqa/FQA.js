@@ -264,13 +264,13 @@ const FQA = () => {
 
             <div className={FQACss.container}>
 
-           <Tween from={{ opacity: 0, y: 70 }} duration={1}>
+           <Tween from={{ opacity: 0, y: 70 }} duration={0.8}>
 
                 <h1 className={FQACss.h1}>How can we help you</h1>
 
             </Tween>
 
-          <Tween from={{ opacity: 0, y: 30 }} duration={1.3}>
+          <Tween from={{ opacity: 0, y: 30 }} duration={1}>
 
                 <div className={FQACss.grid}>
                 <input className={FQACss.input1} type="text"  placeholder="Describe your issue"></input><button  className={FQACss.btn} >
@@ -573,7 +573,7 @@ const FQA = () => {
 
            <div className={FQACss.pdT}><h1 className={FQACss.h1}> Looking For Something Else ?</h1>
             <div className={FQACss.center}>
-                <a href="/contact-us"  className={FQACss.contactBtn}>Contact us <span className={FQACss.greaterthan}>&gt;</span></a>
+                <a href="/"  className={FQACss.contactBtn}>Contact us <span className={FQACss.greaterthan}>&gt;</span></a>
             </div>  </div>       
         </Timeline>
         </div>

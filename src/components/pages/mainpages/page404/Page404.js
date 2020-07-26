@@ -27,7 +27,7 @@ const Page404 = () => {
         <>
             { redirect ? 
             
-            <Redirect to={pageurl.LANDING_PAGE_URL}/>
+            <Redirect to={pageurl.FAQ_PAGE_URL}/>
             
             :
                 <div style={{width:"100%",

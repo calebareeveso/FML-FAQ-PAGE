@@ -1,4 +1,4 @@
-import { LOADING_USER, CLEAR_ERRORS, SET_ERRORS, LOADING_UI, LOADED_UI, VERIFY_EMAIL } from './types';
+import {  CLEAR_ERRORS, SET_ERRORS, LOADING_UI, LOADED_UI, VERIFY_EMAIL } from './types';
 
 
 const initialState = {

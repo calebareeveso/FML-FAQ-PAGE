@@ -1,6 +1,5 @@
 import React from 'react';
 import './EmailConfirmationFailure.css';
-import { Navbar, Footer } from '../../../navigation/navigation';
 import ScrollIntoView from '../../../../router/scrollintoview/ScrollIntoView';
 import failure from './images/failure.png';
 

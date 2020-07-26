@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import { Link,withRouter } from 'react-router-dom';
 import '../../../assets/bootstrap.css';
 import './investordashboard.css';
 import { Navbar,Footer } from '../../navigation/navigation';
@@ -50,12 +49,12 @@ const InvestorDashboard = () => {
                             <section className="investoruser">
                                 <h1 className="investoruser__intro">Welcome Back, <span className="investortext--secondary">Chandan</span></h1>
                                 <p>
-                                    Campaingn available for investing. <span><a className="investorpink-text" href="#">View More</a></span>
+                                    Campaingn available for investing. <span><a className="investorpink-text" href="https://github.com/">View More</a></span>
                                 </p>
                             </section>
                             <div class="investorcontain-arrow-helper">
-                                <img class="investorslide-control investorarrow-left d-block" src={arrowLeft} />
-                                <img class="investorslide-control investorarrow-right d-block" src={arrowRight} />
+                                <img alt="" class="investorslide-control investorarrow-left d-block" src={arrowLeft} />
+                                <img alt="" class="investorslide-control investorarrow-right d-block" src={arrowRight} />
 
                                 <div class="investorhelp-card-contain row mx-0 px-0 overflow-auto mt-4">
                                     <div class="investorhelp-card rounded p-3 p-md-3">
