@@ -1,0 +1,36 @@
+.Recommendations {
+    padding-top: 60px;
+    margin-bottom: 108px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.Recommendations h2 {
+    margin: 0px 0 20px;
+    font-size: 20px;
+    color: #04172A;
+}
+
+.MobileBtn {
+    padding: 5px 10px;
+    background-color: #333333;
+    font-size: 14px;    
+}
+
+.MobileBtn a {
+    color: #fff;
+}
+
+@media screen and (min-width: 600px) {
+    .Recommendations {
+        padding-top: 60px;
+        margin-bottom: 108px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .Recommendations h2 {
+        margin: 68px 0 45px;
+        font-size: 28px;
+    }
+}
